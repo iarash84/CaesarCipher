@@ -147,7 +147,7 @@ The only text that makes sense is zattackz so we can deduce that the key is 21 (
 Language   | Encrypt                             | Decrypt
 ---------- | ----------------------------------- | ----------------------------
 C          | [caesar.c](c/caesar.c)              | _Coming Soon_
-C#         | [Caesar.cs](c#/CaesarLib/Caesar.cs) | _Coming Soon_
+C#         | [Caesar.cs](c#/CaesarLib/Caesar.cs) | [Caesar.cs](c#/CaesarLib/Caesar.cs)
 C++        | [main.cpp](cpp/main.cpp)            | [main.cpp](cpp/main.cpp)
 JavaScript | [encrypt.js](js/encrypt.js)         | [decrypt.js](js/decrypt.js)
 Python     | [encrypt.py](py/encrypt.py)         | [decrypt.py](py/decrypt.py)
