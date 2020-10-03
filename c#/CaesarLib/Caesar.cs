@@ -24,5 +24,23 @@ namespace CaesarLib
             }
             return message;
         }
+        
+        /// <summary>
+        /// decrypt string using Caesar Cipher
+        /// </summary>
+        /// <param name="text">string to decrypt</param>
+        /// <param name="shift">Shift by how many letters</param>
+        /// <returns>decrypted string</returns>
+        static public string Decrypt(string text, int shift)
+        {
+            string message = null;
+            for (int i = 0; i < text.Length; i++)
+            {
+                int ASCII = (int)text[i];
+                message += (char)(ASCII - shift);
+            }
+
+            return message;
+        }
     }
 }
